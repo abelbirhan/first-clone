@@ -1,0 +1,64 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+img{
+   width: 100%;
+}
+p{
+   padding: 0;
+   margin: 0;
+}
+/* header-footer styling */
+.blueBG{
+   background-color: blue;
+   font-size: 25px;
+}
+.try{
+   background-color: black;
+   height: 200px;
+}
+/* background-images */
+.banner{
+   background-image: url("../Resource/images/banner-puppies.jpg");
+   height: 456px;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.puppy-1{background-image: url("../Resource/images/puppy-1.jpg");}
+.puppy-2{
+   background-image: url("../Resource/images/puppy-2.jpg");
+}
+.puppy-3{
+   background-image: url("../Resource/images/puppy-3.jpg");
+}
+.puppy-4{
+   background-image: url("../Resource/images/puppy-4.jpg");
+}
+.all{
+   height: 310px;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+/* more-puppy */
+.more-puppy{
+   font-size: 2rem;
+}
+@media(min-width:768px){
+   .missing-puppy{
+      background-color: tomato;
+   }
+   .all{
+      height: 356px;
+      background-repeat: no-repeat;
+      background-size: cover;
+   }
+   .all-2{
+      height: 546px;
+      background-size: cover;
+   }
+   .missing-puppy p{
+      font-size: 3rem;
+   }
+}
+
